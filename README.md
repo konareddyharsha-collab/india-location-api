@@ -1,4 +1,4 @@
-# India Location API Platform
+# Capstone Project
 
 An industry-standard, multi-service platform for querying hierarchical Indian location data (States, Districts, Sub-Districts, and Villages). The project is built using a microservices-based architecture featuring a secure **Backend API Gateway**, a **PostgreSQL Data Service**, and an interactive **React Admin Dashboard**.
 
