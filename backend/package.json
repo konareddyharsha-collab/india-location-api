@@ -1,0 +1,36 @@
+{
+  "name": "village-api-project",
+  "version": "1.0.0",
+  "description": "Complete Village Data API with JWT Auth, Location Hierarchy, Rate Limiting, and Logging",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node insertData.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "village",
+    "api",
+    "location",
+    "mongodb",
+    "express",
+    "jwt",
+    "authentication"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

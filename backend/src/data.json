@@ -1,0 +1,18 @@
+{
+  "states": [
+    {
+      "id": 1,
+      "name": "Andhra Pradesh",
+      "districts": [
+        {
+          "id": 101,
+          "name": "Anantapur",
+          "villages": [
+            { "id": 1001, "name": "Village A" },
+            { "id": 1002, "name": "Village B" }
+          ]
+        }
+      ]
+    }
+  ]
+}
